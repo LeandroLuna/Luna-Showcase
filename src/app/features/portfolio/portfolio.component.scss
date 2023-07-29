@@ -1,0 +1,15 @@
+main[data-theme="light"]{
+    $clr-text: var(--clr-text);
+    $clr-background: var(--clr-background);
+    $clr-primary: var(--clr-primary);
+    $clr-secondary: var(--clr-secondary);
+    $clr-accent: var(--clr-accent);
+}
+
+main[data-theme="dark"]{
+    $clr-text: var(--clr-text-dark);
+    $clr-background: var(--clr-background-dark);
+    $clr-primary: var(--clr-primary-dark);
+    $clr-secondary: var(--clr-secondary-dark);
+    $clr-accent: var(--clr-accent-dark);
+}
