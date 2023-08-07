@@ -30,19 +30,20 @@
   --bp-md: 768px;
   --bp-lg: 992px;
   --bp-xl: 1200px;
+}
 
-  // Palete light
+body[data-theme="light"]{
   --clr-text: #040101;
   --clr-background: #fbeaed;
   --clr-primary: #ab213a;
   --clr-secondary: #f0b2bd;
   --clr-accent: #b4223d;
+}
 
-
-  // Palete dark
-  --clr-text-dark: #fbeaed;
-  --clr-background-dark: #040101;
-  --clr-primary-dark: #ab213a;
-  --clr-secondary-dark: #090203;
-  --clr-accent-dark: #e88799;
+body[data-theme="dark"]{
+  --clr-text: #fbeaed;
+  --clr-background: #040101;
+  --clr-primary: #ab213a;
+  --clr-secondary: #090203;
+  --clr-accent: #e88799;
 }

@@ -12,14 +12,26 @@
     margin: 0 auto;
 }
 
-.home_content_left{
-    background-color: red;
-    height: 70%;    
+.home_content_left, .home_content_right{
+    display: inherit;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 1em;   
+    box-sizing: border-box;
+    height: 70%;
     width: 50%;
+    text-align: center;
+}
+
+.home_content_left{
+    background-color: var(--clr-primary);
 }
 
 .home_content_right {
-    background-color: blue;
-    height: 70%;
-    width: 50%;
+    background-color: var(--clr-secondary);
+
+    button {
+        width: fit-content;
+        margin: 2em auto;
+    }
 }

@@ -1,6 +1,11 @@
 <header>
+    <a (click)="onNavigate('/portfolio')"><img src="/assets/images/logo.png" alt="Logo"></a>
+
     <nav>
-        <p>header works!</p>
+        <ul>
+            <li><a (click)="onNavigate('/showcase')">Showcase</a></li>
+        </ul>
+        <button (click)="toggleTheme()">Toggle Theme</button>
     </nav>
-    <button (click)="toggleTheme()">Toggle Theme</button>
+
 </header>

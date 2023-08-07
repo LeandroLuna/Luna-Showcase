@@ -3,7 +3,9 @@
 </ng-container>
   
 <ng-template #mainContent>
-    <app-header [@fadeInOut]></app-header>
-    <router-outlet [@fadeInOut]></router-outlet>
-    <app-footer [@fadeInOut]></app-footer>
+    <div class="container">
+        <app-header [@fadeInOut]></app-header>
+        <router-outlet [@fadeInOut]></router-outlet>
+        <app-footer [@fadeInOut]></app-footer>
+    </div>
 </ng-template>  
