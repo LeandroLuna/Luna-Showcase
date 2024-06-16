@@ -8,7 +8,7 @@
 1.0 Defaults
 2.0 Home Hero
   2.1 Contact
-3.0 Posts
+3.0 Projects
 4.0 Footer
 
 --------------------------------------------------------------*/
@@ -25,6 +25,10 @@ $secondary: #FF7B7B;
 /*--------------------------------------------------------------
 	1.0 Defaults
 --------------------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
 
 @media (min-width: 1200px) {
   .container {
@@ -112,7 +116,7 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 9em 0;
+  margin: 20em 0 9em 0;
   @include bp-xsmall {
     margin: 5em 0 5em 0;
   }
@@ -203,7 +207,7 @@ button.btn, input.btn {
 }
 
 /*--------------------------------------------------------------
-	3.0 Posts
+	3.0 Projects
 --------------------------------------------------------------*/
 #portfolio .container {
   margin-top: 10em;
@@ -311,8 +315,8 @@ button.btn, input.btn {
   }
 }
 
-// vertically center content of post rows
-.post-row {
+// vertically center content of project rows
+.project-row {
     align-items: center;
     display: flex;
 }
